@@ -469,17 +469,6 @@
   version = "v0.8.0"
 
 [[projects]]
-  branch = "release-0.8"
-  digest = "1:50bb2827cb7630e31c90b5d0808299d09cd13de204f002d634cad18c8a028da2"
-  name = "github.com/knative/pkg"
-  packages = [
-    "apis",
-    "apis/duck/v1beta1",
-  ]
-  pruneopts = "NUT"
-  revision = "2b848f71969c997809a2dbea8351eaadb23e9bc9"
-
-[[projects]]
   branch = "master"
   digest = "1:f91bb67d051a94cf6ab2cf07eee0550432afc31655838d42cdec258db4b348f0"
   name = "github.com/kr/logfmt"
@@ -1677,8 +1666,6 @@
     "github.com/knative/eventing/pkg/client/clientset/versioned/fake",
     "github.com/knative/eventing/pkg/client/clientset/versioned/typed/eventing/v1alpha1",
     "github.com/knative/eventing/pkg/reconciler/testing",
-    "github.com/knative/pkg/apis",
-    "github.com/knative/pkg/apis/duck/v1beta1",
     "github.com/nats-io/go-nats-streaming",
     "github.com/onsi/ginkgo",
     "github.com/onsi/gomega",
