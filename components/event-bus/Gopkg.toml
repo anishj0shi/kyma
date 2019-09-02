@@ -56,11 +56,11 @@ required = [
 
 [[override]]
   name = "github.com/knative/pkg"
-  branch = "release-0.7"
+  branch = "release-0.8"
 
 [[override]]
   name = "github.com/knative/eventing"
-  version = "v0.7.1"
+  version = "v0.8.0"
 
 [prune]
   non-go = true
